@@ -1,0 +1,30 @@
+{
+  "name": "melbet-guide",
+  "version": "1.0.0",
+  "description": "A guide website for using the MELBET betting app.",
+  "main": "index.js",
+  "dependencies": {
+    "preact": "^10.0.0"
+  },
+  "scripts": {
+    "dev": "lite-server",  // Start local development server
+    "build": "preact build",  // Build the app for deployment
+    "start": "serve build",   // Start server for deployment (Vercel uses this for production)
+    "serve": "lite-server"    // Optional: Alias for 'dev'
+  },
+  "engines": {
+    "node": "16.x"
+  },
+  "keywords": [
+    "melbet",
+    "guide",
+    "betting-app",
+    "dynamic site"
+  ],
+  "author": "Ramandhan",
+  "license": "MIT",
+  "devDependencies": {
+    "lite-server": "^2.6.1",
+    "serve": "^14.0.1"
+  }
+}
